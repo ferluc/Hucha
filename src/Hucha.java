@@ -15,11 +15,14 @@ public class Hucha {
 
 	public static void main(String[] args) {
 
+                Scanner scan = new Scanner(System.in);
 		Hucha P = new Hucha();
 		
-		P.introducir(50);
+                System.out.println("Introduce dinero");
+                P.introducir(scan.nextInt());
 		P.sacar(20);
-		P.introducir(40);
+                System.out.println("Introduce dinero");
+		P.introducir(scan.nextInt());
 		P.informar();
 	}
 }
