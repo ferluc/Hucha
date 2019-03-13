@@ -20,7 +20,7 @@ public class Hucha {
 		
                 System.out.println("Introduce dinero");
                 P.introducir(scan.nextInt());
-		P.sacar(25);
+		P.sacar(20);
                 System.out.println("Introduce dinero");
 		P.introducir(scan.nextInt());
 		P.informar();
